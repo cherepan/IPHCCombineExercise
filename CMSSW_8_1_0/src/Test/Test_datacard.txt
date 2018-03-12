@@ -1,0 +1,17 @@
+# Datacard produced by CombineHarvester with git status: analysis-HIG-16-006-freeze-080416-434-gbbcbef3-dirty
+imax    1 number of bins
+jmax    10 number of processes minus 1
+kmax    * number of nuisance parameters
+--------------------------------------------------------------------------------
+shapes * ZeroJet Test.root ZeroJet/$PROCESS ZeroJet/$PROCESS_$SYSTEMATIC
+--------------------------------------------------------------------------------
+bin          ZeroJet         
+observation  30008.0         
+--------------------------------------------------------------------------------
+bin                    ZeroJet         ZeroJet         ZeroJet         ZeroJet         ZeroJet         ZeroJet         ZeroJet         ZeroJet         ZeroJet         ZeroJet         ZeroJet         
+process                Wlnu            WW2l2nu         WZ              ZZ4l            ZZ2l2nu         ZZ2l2q          stop            ttbar           zmumuee         QCD             ztautau         
+process                1               2               3               4               5               6               7               8               9               10              0               
+rate                   0               3.95606         0               0.778437        6.96813         3.42972         0               103.043         554.195         19269.3         10806.2         
+--------------------------------------------------------------------------------
+DummySyst1     lnN     -               -               -               -               -               -               -               -               -               -               1.05            
+DummySyst2     lnN     1.17            1.17            1.17            1.17            1.17            1.17            1.17            1.17            1.17            1.17            -               
