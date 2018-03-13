@@ -10,7 +10,7 @@ An example is available "Example.cpp". Copy it in CombineHarvester/CombineTools/
 Now create a datacard with it.
 Comments in this file will help you to understand.
 Please have a look at this link to have more examples: http://cms-analysis.github.io/CombineHarvester/index.html.
-If you use the file above or a new one, you have to add a line to the file /CombineHarvester/CombineTools/bin/BuildFile.xml: <bin file="YourDataCard.cpp" name="YourDatacard"></bin>
+If you use the file above or a new one, you have to add a line to the file /CombineHarvester/CombineTools/bin/BuildFile.xml: "<bin file="YourDataCard.cpp" name="YourDatacard"></bin>"
 
 You have to compile with "scram b" before next steps.
 
