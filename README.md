@@ -7,7 +7,7 @@ Create a working directory
 
 Use the histo_datacard.C script to extract some histograms from a root file and rename its. Note that data histograms has to be named data_obs. Put this new root file in your working directory
 
-Now create a datacard with for example CombineHarvester/CombineTools/bin/Example2n.cpp.
+Now create a datacard with for example CombineHarvester/CombineTools/bin/Example2.cpp.
 Comments in this file will help you to understand.
 Please have a look at this link to have more examples: http://cms-analysis.github.io/CombineHarvester/index.html.
 If you create a new code file for DataCard, you have to add a line to the file /CombineHarvester/CombineTools/bin/BuildFile.xml: <bin file="YourDataCard.cpp" name="YourDatacard"></bin>
