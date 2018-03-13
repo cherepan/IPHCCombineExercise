@@ -44,13 +44,13 @@ for($l=0;$l<$numArgs; $l++){
 	system(sprintf("echo \"cmsenv   \">> Installer_$time"));
 	system(sprintf("echo \"git clone https://github.com/cms-analysis/HiggsAnalysis-CombinedLimit.git HiggsAnalysis/CombinedLimit   \">> Installer_$time"));
 	system(sprintf("echo \"git clone https://github.com/cms-analysis/CombineHarvester.git CombineHarvester   \">> Installer_$time"));
-	system(sprintf("echo \"scram b   \">> Installer_$time"));
 
+	system(sprintf("echo \"scram b   \">> Installer_$time"));
+	system(sprintf("echo \"scram b -j8   \">> Installer_$time"));
+
+	system(sprintf("echo \"cp ../../../Example.cpp $PWD/$setdir/CMSSW_8_1_0/src/CombineHarvester/CombineTools/bin/;\">> Installer_$time"));
 	printf("\n\nInstructions:");
 	printf("\nTo complete this step do:  \n\n");
 	printf("\n    1) source  Installer_$time \n");
     }
 }
-
-
-
