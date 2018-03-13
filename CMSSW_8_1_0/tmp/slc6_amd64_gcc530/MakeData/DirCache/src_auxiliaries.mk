@@ -1,2 +1,0 @@
-ALL_SUBSYSTEMS+=auxiliaries
-subdirs_src_auxiliaries = src_auxiliaries_shapes src_auxiliaries_datacards src_auxiliaries_models src_auxiliaries_pruning
